@@ -1,0 +1,20 @@
+/* 
+.badge             → color: #424242
+.badge.processing  → color: #e65100
+.badge.shipped     → color: #1565c0
+.badge.delivered   → color: #2e7d32
+*/
+.badge {
+  font-size: 14px;
+  font-weight: 700;
+  color: #424242;
+}
+.badge.processing {
+  color: #e65100;
+}
+.badge.shipped {
+  color: #1565c0;
+}
+.badge.delivered {
+  color: #2e7d32;
+}

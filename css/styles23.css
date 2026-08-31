@@ -1,0 +1,16 @@
+.page-title {
+  color: #1565c0;
+}
+.description {
+  color: #424242;
+}
+.social-links .link {
+  color: #1565c0;
+}
+.social-links .link:hover,
+.social-links .link:focus {
+  color: #e65100;
+}
+.social-links .link:active {
+  color: #b71c1c;
+}

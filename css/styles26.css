@@ -1,0 +1,11 @@
+.page-title {
+  text-align: center;
+  letter-spacing: 4px;
+}
+.description {
+  line-height: 1.5;
+}
+.site-nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+}

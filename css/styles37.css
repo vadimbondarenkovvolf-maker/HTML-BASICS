@@ -1,0 +1,53 @@
+/* Кольори:
+  рамка контейнера — #1565C0
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+.page-header,
+.page-footer,
+.hero,
+.about,
+.menu {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.page-header {
+  background-color: #eceff1;
+}
+
+.hero {
+  background-color: #e8f5e9;
+}
+
+.about {
+  background-color: #fff8e1;
+}
+
+.menu {
+  background-color: #e3f2fd;
+}
+
+.page-footer {
+  background-color: #cfd8dc;
+}
+.container {
+    max-width: 900px;
+    padding: 0 15px;
+    margin: 0 auto;
+}

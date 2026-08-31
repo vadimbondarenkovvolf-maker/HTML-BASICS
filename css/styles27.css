@@ -1,0 +1,10 @@
+.logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #212121;
+}
+.logo .accent {
+  color: #1565c0;
+}

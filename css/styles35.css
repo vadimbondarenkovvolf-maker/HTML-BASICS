@@ -1,0 +1,44 @@
+* Кольори:
+  рамка секції — #F57F17
+  рамка секції при hover — #1565C0
+  рамка заголовка — #F57F17
+*/
+
+body {
+  font-family: sans-serif;
+  background-color: #F5F5F5;
+  color: #212121;
+  
+}
+
+.about {
+  width: 280px;
+  padding: 24px;
+  background-color: #FFF8E1;
+  border: 2px solid #f57f17;
+  border-radius: 8px;
+  /*центрування блоків*/
+  margin: 0 auto;
+  /* задай border і border-radius */
+}
+
+.about:hover {
+    border-color: #1565C0;
+  /* задай border-color */
+}
+
+.about-title {
+  margin: 0 0 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #f57f17;
+  /* задай border-bottom */
+}
+
+.about-text {
+  margin: 0 0 16px;
+}
+
+.about-link {
+  text-decoration: none;
+  color: #F57F17;
+}

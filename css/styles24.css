@@ -1,0 +1,15 @@
+body {
+  font-family: "Helvetica Neue", "Roboto", "Verdana", sans-serif;
+}
+.page-title {
+  font-family: "Tahoma", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+.description {
+  font-size: 20px;
+}
+.feature-item {
+  font-weight: 700;
+  font-style: italic;
+}
