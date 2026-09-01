@@ -1,0 +1,24 @@
+/* Кольори:
+  рамка — #1565C0
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+
+}
+
+.thumb {
+  width: 280px;
+  border: 5px solid #1565C0;
+  background-color: #212121;
+  border-radius: 50px;
+  overflow: hidden;
+  /* задай border, border-radius і overflow */
+}

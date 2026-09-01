@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
+.pane {
+  /* задай display: none */
+  display: none;
+  padding: 12px;
+  border: 1px solid #1E88E5;
+  border-radius: 4px;
+}
+
+.pane.is-active {
+  /* задай display: block */
+  display: block;
+}

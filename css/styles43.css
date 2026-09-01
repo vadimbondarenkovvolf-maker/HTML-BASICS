@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #F5F5F5;
+}
+
+.menu {
+    display: flex;
+  padding: 8px;
+  margin: 0;
+  list-style: none;
+  background-color: #0D47A1;
+  /* зроби .menu flex-контейнером */
+}
+
+.menu .link {
+  display: block;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.menu .link:hover {
+  background-color: #1565C0;
+}

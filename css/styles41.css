@@ -1,0 +1,26 @@
+/* Кольори:
+  рамка — #F57F17
+*/
+
+body {
+  font-family: sans-serif;
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+	background-color: #FFF8E1;
+    padding: 16px;
+    border: 1px solid #f57f17;
+    margin-bottom: 8px;
+  /* задай padding, background-color, border і margin-bottom */
+}
+.menu-item:last-child {
+margin-bottom: 0px;
+}
+
+/* прибери відступ у останнього елемента */
