@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fffbfe;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  font-size: 32px;
+  color: #1c1b1f;
+  margin-bottom: 16px;
+}
+.section-title::before,
+.section-title::after {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 2px;
+    background-color: #1565c0;
+}
+
+.section-text {
+  font-size: 14px;
+  color: #49454f;
+}

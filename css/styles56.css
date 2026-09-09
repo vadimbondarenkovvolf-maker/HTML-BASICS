@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 40px;
+  background-color: #fffbfe;
+}
+
+.cards {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.card {
+    position: relative;
+  width: 240px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card-thumb {
+  height: 160px;
+}
+
+.card-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-name {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #1565c0;
+  padding: 4px 12px;
+}

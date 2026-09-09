@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  height: 400px;
+  color: #ffffff;
+  background-color: #212121;
+  background-image: 
+  linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url(https://images.pexels.com/photos/374885/pexels-photo-374885.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* Заміни background-image на багатошаровий:
+     додай linear-gradient поверх зображення */
+}
+
+.hero-title {
+  font-size: 48px;
+}
+
+.hero-text {
+  font-size: 18px;
+}

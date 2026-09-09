@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fffbfe;
+  color: #1c1b1f;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+  padding: 16px 24px;
+  background-color: #1565c0;
+  /* Додай position та top */
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #1c1b1f;
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #49454f;
+}

@@ -1,0 +1,50 @@
+/* Тінь картки:
+   0 1px 2px rgba(0, 0, 0, 0.3),
+   0 2px 6px 2px rgba(0, 0, 0, 0.15) */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 40px;
+  background-color: #fffbfe;
+}
+
+.menu {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.card {
+    box-shadow:  0 1px 2px rgba(0, 0, 0, 0.3),
+   0 2px 6px 2px rgba(0, 0, 0, 0.15);
+  width: 240px;
+  padding: 16px;
+  background-color: #fffbfe;
+  border-radius: 12px;
+  /* Додай box-shadow */
+}
+
+.card-title {
+  font-size: 16px;
+  color: #1c1b1f;
+  margin-bottom: 8px;
+}
+
+.card-desc {
+  font-size: 14px;
+  color: #49454f;
+  margin-bottom: 16px;
+}
+
+.card-price {
+  font-size: 14px;
+  color: #1c1b1f;
+}
