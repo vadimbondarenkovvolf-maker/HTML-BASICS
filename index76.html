@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SmileCare</title>
+    <link rel="stylesheet" href="./css/styles76.css" />
+  </head>
+  <body>
+    <form class="form">
+        <fieldset class="form-fieldset">
+            <legend class="form-legend">Contact information</legend>
+      <!-- Обгорни контактні поля в fieldset з legend "Contact information" -->
+        <label class="form-label">
+        Name
+        <input class="form-input" type="text" name="name" placeholder="Jacob Mercer" />
+      </label>
+      <label class="form-label">
+        Email
+        <input class="form-input" type="email" name="email" placeholder="example@email.com" />
+        </label>
+        </fieldset>
+      <!-- Обгорни радіокнопки в fieldset з legend "Appointment type" -->
+      <fieldset class="form-fieldset">
+            <legend class="form-legend">Appointment type</legend>
+      <label class="form-option">
+        <input type="radio" name="appointment" value="consultation" checked />
+        Consultation
+      </label>
+      <label class="form-option">
+        <input type="radio" name="appointment" value="checkup" />
+        Checkup
+      </label>
+      <label class="form-option">
+        <input type="radio" name="appointment" value="treatment" />
+        Treatment
+      </label>
+    </fieldset>
+      <button class="form-button" type="submit">Book appointment</button>
+    </form>
+  </body>
+</html>
