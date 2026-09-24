@@ -1,0 +1,38 @@
+/* Глобальне скидання */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  padding: 24px 24px 0;
+}
+
+p {
+  font-size: 16px;
+  padding: 0 24px;
+}
+
+.promo-banner {
+    display: none;
+  padding: 12px 24px;
+  background-color: #1565c0;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+}
+@media (min-width: 768px) and (max-width:1023px) {
+    .promo-banner {
+        display: block;
+    }
+}
+/* Банер видимий тільки від 768px до 1023px */

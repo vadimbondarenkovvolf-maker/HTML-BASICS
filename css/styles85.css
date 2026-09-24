@@ -1,0 +1,36 @@
+/* Глобальне скидання */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 24px;
+}
+
+.card {
+  max-width: 320px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.card-content {
+  padding: 16px 0;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #616161;
+}

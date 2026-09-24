@@ -1,0 +1,37 @@
+/* Глобальне скидання */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/* Контейнер — мобільна версія */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #e3f2fd;
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+/* Контейнер від 768px */
+
+/* Контейнер від 1200px */

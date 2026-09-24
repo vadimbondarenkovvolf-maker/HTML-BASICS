@@ -1,0 +1,41 @@
+/* Глобальне скидання */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fdd835;
+}
+
+.mobile-banner {
+    display: none;
+  padding: 12px 24px;
+  background-color: #1565c0;
+  color: #e3f2fd;
+}
+@media (max-width: 599px) {
+    .mobile-banner {
+        display: block;
+    }
+}
+@media (min-width: 600px) {
+    body {
+        background-color: #43a047;
+    }
+}
+@media (min-width: 900px) {
+    body {
+        background-color: #1e88e5;
+    }
+}
+
+/* Банер видимий тільки до 599px */
+
+/* Колір фону від 600px #43a047 */
+
+/* Колір фону від 900px #1e88e5 */

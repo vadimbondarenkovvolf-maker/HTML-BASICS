@@ -1,0 +1,44 @@
+/*
+Зображення для фону:
+
+- 1x: https://images.pexels.com/photos/305566/pexels-photo-305566.jpeg?w=1200
+- 2x: https://images.pexels.com/photos/305566/pexels-photo-305566.jpeg?w=2400
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* Hero */
+.hero {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 24px;
+  background-image: image-set(url('https://images.pexels.com/photos/305566/pexels-photo-305566.jpeg?w=1200') 1x,
+  url('https://images.pexels.com/photos/305566/pexels-photo-305566.jpeg?w=2400') 2x);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-title {
+  font-size: 48px;
+  color: #1565c0;
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  font-size: 20px;
+  color: #1565c0;
+}
